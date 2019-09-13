@@ -1,0 +1,238 @@
+/* FORMATO PARA DIFERENTES ETIQUETAS H*/
+  
+  h1{  		
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 50px;
+    padding-bottom: 15px;
+  }
+  h2{
+    font-weight: 700;
+    font-size: 18px; 		
+    line-height: 60px;
+  }
+  p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  
+ol, ul {
+	list-style: none;
+}
+
+header{
+	text-align: right;
+	position: absolute;
+	width: 100%;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9997;
+}
+      header nav{
+        background: #facd11;
+        margin-bottom: 10px;
+        margin: 0 10 0 10;
+      }
+          header nav ul{
+            list-style: none;
+            overflow: hidden;
+          }
+              header nav ul li{
+                float: right;
+              }
+                  header nav ul li a{
+                    display: block;
+                    padding: 20px;
+                    color: #ffffff;
+                    text-decoration: none;
+                  }
+                      header nav ul li a:hover{
+                        background: #ffffff;
+                      }
+
+  
+.menu-fixed{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 4px 3px rgb(0, 0, 0, .5);
+}
+
+
+  section{
+    text-align: center;
+  }
+  
+  body{
+    font-family: 'Merriweather', serif;
+  }
+/*   IMAGEN BANNER    */
+
+  #banner{
+    background: url(../img/banner.jpg) no-repeat center center;  
+    background-size: cover;    		
+    text-align: center;
+    padding: 420px 0 376px;
+  }  
+
+/*   POSICION MENÚ    */
+
+@media screen and (min-width: 767px) {
+	.js .nav-collapse {
+		position: relative;
+	}
+	.js .nav-collapse.closed {
+		max-height: none;
+	}
+	.nav-toggle {
+		display: none;
+	}
+}
+
+/* FORMATO BOTONES BANNER*/
+
+  	.nav-collapse {
+  		float: right;
+  		width: auto;
+      padding-top: 30px;
+      position: sticky;
+  	}
+	.nav-collapse li {
+		float: left;
+		width: 100%;	
+	}
+
+  	.nav-collapse li {
+  		width: auto;
+  		margin-right: 5px;
+  	}
+    .nav-collapse a {
+  	-webkit-tap-highlight-color: rgba(0,0,0,0);
+  	text-decoration: none; 
+  	font-size: 15px;
+  	padding: 0.7em 1em;
+  	color: #3c3c3c;
+  	width: 100%;
+  	float: left;
+  	text-align: center;  	
+  }
+  
+ /* BARRA AMARILLA SEPARADORA*/
+  
+  #veggie{
+    background-color: #facd11;
+    padding: 65px 0 85px;
+    color: #3c3c3c;
+  }
+  
+ /* LINEA SPAN ADORNO */
+  
+  span.line{
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    height: 2px;
+    background: #3c3c3c;
+  }
+
+/* FORMATO PRODUCTOS Y RECETAS */
+
+  .innerspecial{
+    width: 16.6%;
+    float: left;
+    padding-top: 50px;
+  }
+  .innerspecial img{
+    width: 100%;
+    display: block;
+  }
+  .innerspecial p{
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .innerspecial h2{
+    padding-top: 20px;
+    line-height: 51px;
+  }
+  
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/ 
+  
+/* IMAGEN FOOTER CONTACTO */
+  
+  #contact{
+    background: url(../img/footer.jpg) no-repeat center center;  
+    background-size: cover;    		
+    text-align: center;
+    padding: 70px 0 0;
+  }
+ 
+/* TAMAÑO FOOTER */
+ 
+  footer{
+    padding: 300px 0 75px;
+  }  
+ 
+/* INPUT, BUTTONS Y TEXT AREAS DEL FOOTER BONITOS */
+ 
+  input,textarea{
+    border: none;
+    border-bottom: 1px solid #333333;
+    background-color:transparent;
+    padding: 30px 60px 10px 20px;
+    outline: 0;  		
+  }
+  input[type="email"]{
+    float: right;
+  }  
+  
+  textarea{
+    width: 100%;  	
+    padding-top: 50px;	
+    resize: none;
+    line-height: 7px;
+  }
+  
+  form button{
+    background:transparent;
+    border: 1px solid #3c3c3c;
+    padding: 10px 20px;  		 
+    font-style: initial;
+    margin: 50px auto 0;
+    display: block;
+  }
+
+/* FORMATO REDES SOCIALES */
+
+footer .social{
+   width: 20%;
+   float: center;
+ }
+ 
+.social i{
+  width: 45px;
+  height: 45px;
+  border:1px solid #333333;
+  text-decoration: none;
+
+}
+.social i{
+  padding: 10px 0;
+  font-size: 23px;
+  cursor: pointer;
+ 
+}
+
+
+
+
+
+
+
+

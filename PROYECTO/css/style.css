@@ -305,7 +305,7 @@ header.sticky .nav-collapse a:hover{
     padding: 420px 0 376px;
   }
   #veggie{
-    background-color: #facd11;
+    background-color: #008f39;
     padding: 65px 0 85px;
     color: #3c3c3c;
   }
@@ -373,6 +373,7 @@ header.sticky .nav-collapse a:hover{
     float: right; 		
     display: block;
   }
+  /* INNERABOUTRIGHT SECCIÓN PRODUCTOS*/
   #aboutus .inneraboutright{
     width: 100%;
     display: block;
